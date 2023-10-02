@@ -1,0 +1,36 @@
+1.  Application de gestion de tâches : Créez une application qui permet aux utilisateurs de créer, mettre à jour et
+        supprimer des tâches. Vous pouvez également ajouter des fonctionnalités supplémentaires telles que des rappels,
+            des priorités, etc.
+
+2.  Analyseur de données : Développez un programme capable de lire des fichiers de données, de les analyser et de
+        générer des rapports ou des visualisations des résultats. Cela peut être utile pour l'analyse de données
+            financières, la science des données, etc.
+
+3.  Générateur de mots de passe : Créez un programme qui génère des mots de passe aléatoires et sécurisés en fonction
+        des critères spécifiés par l'utilisateur, tels que la longueur et les caractères spéciaux.
+
+4.  Convertisseur d'unités : Développez un outil qui permet de convertir des unités de mesure, par exemple, de Celsius à
+        Fahrenheit, de kilomètres à miles, etc.
+
+5.  Jeu de devinettes : Créez un jeu dans lequel l'ordinateur choisit un nombre aléatoire et le joueur doit deviner ce
+        nombre en fonction des indications données (plus grand, plus petit, etc.).
+
+6.  Application de rappels : Développez une application qui envoie des rappels à l'utilisateur à des moments spécifiés.
+        Par exemple, vous pouvez créer un rappel quotidien pour boire de l'eau ou un rappel hebdomadaire pour faire de
+            l'exercice.
+
+7.  Système de recommandation de films ou de musique : Construisez un système qui recommande des films ou de la musique
+        en fonction des préférences de l'utilisateur. Vous pouvez utiliser des algorithmes de filtrage collaboratif ou<
+            d'apprentissage automatique pour cela.
+
+8.  Scraping de données : Créez un programme qui extrait des données à partir de sites web en utilisant des
+        bibliothèques telles que BeautifulSoup. Vous pouvez extraire des informations spécifiques, des articles de
+            presse, des données sur les produits, etc.
+
+9.  Application de gestion de finances personnelles : Développez un programme qui aide les utilisateurs à gérer leurs
+        finances personnelles en enregistrant leurs revenus, leurs dépenses, en fournissant des statistiques et des
+            visualisations pour les aider à suivre leurs dépenses et à planifier leur budget.
+
+10. Outil de génération de rapports : Créez un outil qui génère automatiquement des rapports à partir de données
+        structurées. Les utilisateurs peuvent spécifier les paramètres de génération de rapport et l'outil générera le
+            rapport correspondant.

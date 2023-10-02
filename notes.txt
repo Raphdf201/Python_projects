@@ -1,0 +1,40 @@
+1.  Créer variable = nomdelavariablepasdespaces = true/false/lettres/chiffres
+2.  mettre variable à = nomdelavariablepasdespaces = chiffrequetuveux/var+var/var-var/var*var/var/var
+3.  metre variable à texte avec espaces = nomdelavariablepasdespaces = 'ton texte.'
+4.  print texte = print('tontexte')
+5.  print variable = print (nomdelavariablepasdespaces)
+6.  print 2 variables = print (var1, var2)
+7.  while = quand true, faire
+8.  1 script à la fois (une colonne scratch)
+9.  in = detecte si caractere est dans truc - ex. = 'a' in abc = true - ex. 2 = var = ('abc'). 'a' in var = true
+10. True et False = besoin de majuscule
+11. decimaux avec un point
+12. types = (int = nb entier), (float = nb decimal), (str = texte)
+13. resultat division = float (nb decimal ex. = 3.0)
+14. aléatoire = rand(type de nb sans parenthèeses)(min, max)
+15. chaine = 'nimportequoi mais pas d\ 'apostrophe'
+16. remplacer ' par \ ' dans les chaines
+17. chaine1+ chaine2 = chaine1 chaine2 (pas division ni multiplication de chaine)
+18. separer chaines = sep='-'
+19. finir chaine = end='.'
+20. sitch ligne a chaque chaine = sep='\ n'
+21. tjrs mettre , entre 2 elements. ex. - print ('salut', var1)
+22. \ n = <br/>
+23. ... == ... = egal a (= =)
+24. ... != ... = different de (! =)
+25. ... < ... = inférieur a
+26. ... > ... = superieur a
+27. ... <= ... = inferieur ou egal a (< =)
+28. ... >= ... = superieur ou egal a (> =)
+29. not ... = inverse le True/Fals
+30. ... or ... = permet 2 reponses possibles
+31. ... and ... = verifie 2 trucs et donne 1 reponse
+32. Transformer variable en entier = int(tavariable)
+33. Transformer variable en décimal = ?(tavariable)
+34. Transformer variable en texte = string(tavariable)
+35. Transformer variable en booléen = ?(tavariable)
+36.
+37.
+38.
+39.
+40.
