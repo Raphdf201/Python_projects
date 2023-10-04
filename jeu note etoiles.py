@@ -65,6 +65,7 @@ def voir_note():
 
 
 def combien_etoiles():
+    input_qui_etoiles = input("À qui ")
     input_combien_etoiles = input("Quelle note voulez-vous attribuer ? 1/2/3/4/5 étoile/s : ")
     if input_combien_etoiles == "1 étoile":
         etoiles_1()
@@ -94,10 +95,10 @@ def etoiles_1():
 
 def etoiles_2():
     personne = input("À qui voulez-vous attribuer la note 2 étoiles ? ")
-    input_fin_etoile = input("Voulez-vous attribuer ou voir une autre note ? (oui/non) ")
-    if input_fin_etoile == "oui":
+    input_fin_etoile = input("Voulez-vous attribuer ou voir une autre note ? (o/n) ")
+    if input_fin_etoile == "o":
         voir_attribuer()
-    elif input_fin_etoile == "non":
+    elif input_fin_etoile == "n":
         print("Bonne Journée !")
     else:
         print("Vous n'avez pas entré l'une des réponses attendues. Veuillez entrer «oui» ou «non».")
@@ -141,11 +142,10 @@ def etoiles_5():
 
 
 def voir_attribuer():
-    input_voir_attribuer = input("Voulez-vous voir la note de quelqu'un ou attribuer une note à quelqu'un ? ("
-                                 "attribuer note/voir note) ")
-    if input_voir_attribuer == "attribuer note":
+    input_voir_attribuer = input("Voulez-vous voir la note de quelqu'un ou attribuer une note à quelqu'un ? (a/v)")
+    if input_voir_attribuer == "a":
         combien_etoiles()
-    elif input_voir_attribuer == "voir note":
+    elif input_voir_attribuer == "v":
         voir_note()
     else:
         print("Vous n'avez pas entré l'une des réponses attendues. Veuillez entrer «voir note» ou «attribuer note».")
