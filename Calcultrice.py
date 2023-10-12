@@ -1,11 +1,25 @@
 import math
 
+nb_3 = 0
+
+def troisiemeNombre():
+    troisiemeNombre_var = None
+    troisiemeNombre_var = input("Voulez-vous additionner un troisième nombre ? (o/n)")
+    if troisiemeNombre_var == "o":
+        return float(input("Nombre 3 : "))
+    elif troisiemeNombre_var == "n":
+        return 0
+    else:
+        print("Veuillez entrer une réponse valide (o ou n)")
+        exit()
+
 
 def addition():
     print("Quels nombres voulez-vous additionner ?")
     addition_nb_1 = float(input("Nombre 1 : "))
     addition_nb_2 = float(input("Nombre 2 : "))
-    resultat_addition = addition_nb_1 + addition_nb_2
+    troisiemeNombre()
+    resultat_addition = addition_nb_1 + addition_nb_2 + nb_3
     print(addition_nb_1, "+", addition_nb_2, "=", resultat_addition)
 
 
