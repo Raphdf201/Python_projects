@@ -33,8 +33,8 @@
 33. Transformer variable en décimal = ?(tavariable)
 34. Transformer variable en texte = string(tavariable)
 35. Transformer variable en booléen = ?(tavariable)
-36.
-37.
-38.
+36. Créer une fonction = def nomDeLaFonction()
+37. Appeller une fonction = nomDeLaFonction()
+38. Utiliser variables locales dans une fonction = nomDeLaFonction(variable1, variable2)
 39.
 40.
