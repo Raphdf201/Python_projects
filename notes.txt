@@ -26,13 +26,13 @@
 26. ... > ... = superieur a
 27. ... <= ... = inferieur ou egal a (< =)
 28. ... >= ... = superieur ou egal a (> =)
-29. not ... = inverse le True/Fals
+29. not ... = inverse le True/False
 30. ... or ... = permet 2 reponses possibles
 31. ... and ... = verifie 2 trucs et donne 1 reponse
 32. Transformer variable en entier = int(tavariable)
-33. Transformer variable en décimal = ?(tavariable)
+33. Transformer variable en décimal = float(tavariable)
 34. Transformer variable en texte = string(tavariable)
-35. Transformer variable en booléen = ?(tavariable)
+35. Transformer variable en booléen = bool(tavariable)
 36. Créer une fonction = def nomDeLaFonction()
 37. Appeller une fonction = nomDeLaFonction()
 38. Utiliser variables locales dans une fonction = nomDeLaFonction(variable1, variable2)
