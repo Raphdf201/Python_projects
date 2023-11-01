@@ -1,36 +1,33 @@
-def longueur():
+def longueur_cv():
     print("Convertisseur d'unités de mesure de longueur")
 
 
-def energie():
+def energie_cv():
     print("Convertisseur d'unités de mesure d'énergie")
 
 
-def vitesse():
+def vitesse_cv():
     print("Convertisseur d'unités de vitesse")
 
 
-def surprise():
+def surprise_cv():
     print("UWU")
     exit()
 
 
-def depart():
+def launch_cv():
     print("Bienvenue dans mon convertisseur d'unités")
     departInput = input(
         "Pour convertir une unité de longueur, écrire L, pour l'énergie, E et Q pour quitter : ")
     if departInput == "L":
-        longueur()
+        longueur_cv()
     elif departInput == "E":
-        energie()
+        energie_cv()
     elif departInput == "V":
-        vitesse()
+        vitesse_cv()
     elif departInput == "EASTEREGG":
-        surprise()
+        surprise_cv()
     elif departInput == "Q":
         exit()
     else:
         print("Veuillez entrer une lettre valide")
-
-
-depart()

@@ -1,1 +1,2 @@
-print("Ceci est un fichier de texte (comme si tu éxecutais juste python, mais sauvegarde ta progression)")
+def launch_tests():
+    print("Fichier de tests")

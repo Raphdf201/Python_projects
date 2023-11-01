@@ -11,7 +11,7 @@ def generer_mot_de_passe(longueur, utilise_speciaux=False):
     return mot_de_passe
 
 
-def main():
+def main_mdp():
     print("Générateur de mots de passe sécurisés")
     longueur = int(input("Longueur du mot de passe : "))
     utilise_speciaux = input("Utiliser des caractères spéciaux ? (oui/non) : ").lower() == "oui"
@@ -19,6 +19,6 @@ def main():
     mot_de_passe = generer_mot_de_passe(longueur, utilise_speciaux)
     print("Mot de passe généré :", mot_de_passe)
 
-
-if __name__ == "__main__":
-    main()
+def launch_mdp():
+    if __name__ == "__main__":
+        main_mdp()
