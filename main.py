@@ -1,3 +1,4 @@
+import subprocess
 import Calcultrice
 import Convertisseur
 import dé
@@ -6,6 +7,15 @@ import manoir_hanté
 import tests
 import x3
 import chrome
+
+chemin_cal = "./cal_launcher.bat"
+chemin_conv = "./conv_launcher.bat"
+chemin_de = "./de_launcher.bat"
+chemin_mdp = "./mdp_launcher.bat"
+chemin_mh = "./mh_launcher.bat"
+chemin_test = "./tests_launcher.bat"
+chemin_x3 = "./x3_launcher.bat"
+chemin_nav = "./chrome_launcher.bat"
 
 print("Quel projet voulez-vous lancer ? (entrer les lettre correspondante)")
 print("Calculatrice : cal")
@@ -26,7 +36,7 @@ elif quel == "conv":
 elif quel == "de":
     dé.dé
 elif quel == "mdp":
-    generateur_mdp.launch_mdp
+    subprocess.call(chemin_mdp, shell=True)
 elif quel == "mh":
     manoir_hanté.manoirHanté
 elif quel == "test":

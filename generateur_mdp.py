@@ -19,6 +19,6 @@ def main_mdp():
     mot_de_passe = generer_mot_de_passe(longueur, utilise_speciaux)
     print("Mot de passe généré :", mot_de_passe)
 
-def launch_mdp():
-    if __name__ == "__main__":
-        main_mdp()
+
+if __name__ == "__main__":
+    main_mdp()
