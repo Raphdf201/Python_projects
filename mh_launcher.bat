@@ -1,2 +1,2 @@
 @echo off
-python manoir_hanté.py
+python ./manoir_hanté.py

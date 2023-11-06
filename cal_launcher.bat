@@ -1,2 +1,2 @@
 @echo off
-python Calculatrice.py
+python ./Calculatrice.py

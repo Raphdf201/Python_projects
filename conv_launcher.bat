@@ -1,2 +1,2 @@
 @echo off
-python Convertisseur.py
+python ./Convertisseur.py
