@@ -1,13 +1,66 @@
 import math
+resultat = 0
 
-def addition(nb_1, nb_2):
-    resultat = None
+def addition(nb_1, nb_2, resultat):
     resultat = nb_1 + nb_2
     return resultat
 
-def quelle_operation(q_o_input):
-    if q_o_input == "+":
-        nb_1 = input("Premier nombre à additionner : ")
-        nb_2 = input("Deuxième nombre à additionner : ")
-        addition(nb_1, nb_2)
-        print()
+
+def soustraction(nb_1, nb_2, resultat):
+    resultat = nb_1 - nb_2
+    return resultat
+
+
+def multiplication(nb_1, nb_2, resultat):
+    resultat = nb_1 * nb_2
+    return resultat
+
+
+def division(nb_1, nb_2, resultat):
+    resultat = nb_1 / nb_2
+    return resultat
+
+
+def puissance(nb_1, nb_2, resultat):
+    resultat = nb_1 ** nb_2
+    return resultat
+
+
+def racine_carree(nb_1, resultat):
+    resultat = math.sqrt(nb_1, resultat)
+    return resultat
+
+quoi = input("Quelle opération voulez-vous exécuter ? (+, -, *, /, ^, rc) : ")
+if quoi == "+":
+    nb_1 = float(input("Nombre 1 à Additionner : "))
+    nb_2 = float(input("Nombre 2 à Additionner : "))
+    addition(nb_1, nb_2, resultat)
+    print("Le résultat est ", resultat)
+elif quoi == "-":
+    nb_1 = float(input("Nombre 1 à soustraire : "))
+    nb_2 = float(input("Nombre 2 à soustraire : "))
+    soustraction(nb_1, nb_2, resultat)
+    print("Le résultat est ", resultat)
+elif quoi == "*":
+    nb_1 = float(input("Nombre 1 à multiplier : "))
+    nb_2 = float(input("Nombre 2 à multiplier : "))
+    multiplication(nb_1, nb_2, resultat)
+    print("Le résultat est ", resultat)
+elif quoi == "/":
+    nb_1 = float(input("Nombre 1 à diviser : "))
+    nb_2 = float(input("Nombre 2 à diviser : "))
+    division(nb_1, nb_2, resultat)
+    print("Le résultat est ", resultat)
+elif quoi == "^":
+    nb_1 = float(input("Nombre : "))
+    nb_2 = int(input("Exposant : "))
+    puissance(nb_1, nb_2, resultat)
+    print("Le résultat est ", resultat)
+elif quoi == "rc":
+    nb_1 = int(input("Nombre : "))
+    racine_carree(nb_1, resultat)
+    print("Le résultat est ", resultat)
+else:
+    print("Veuillez entrer un symbole valide.")
+    print("(+) = addition, (-) = soustraction, (*) = multiplication")
+    print("(/) = division, (^) = exposant ou puissance, (rc) = racine carrée")
