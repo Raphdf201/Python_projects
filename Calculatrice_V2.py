@@ -64,3 +64,5 @@ else:
     print("Veuillez entrer un symbole valide.")
     print("(+) = addition, (-) = soustraction, (*) = multiplication")
     print("(/) = division, (^) = exposant ou puissance, (rc) = racine carrée")
+
+# Donne 0 à chaque opération (donc non fonctionnelle)
