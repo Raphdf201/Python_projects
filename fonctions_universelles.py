@@ -5,6 +5,3 @@ def plusegal(plusegal):
 
 def plusplus(plusplus):
     plusplus = plusplus + plusplus
-
-def bat(batchemin):
-    subprocess.call(batchemin, shell=True)

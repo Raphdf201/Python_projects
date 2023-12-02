@@ -114,6 +114,6 @@ def quelle_operation_cal():
         print("Vous n'avez pas entré l'une des réponses attendues. Veuillez entrer «addition», «soustraction», "
               "«multiplication», «division» ou «autre».")
 
-def launch_cal():
-    print("Ceci est une calculatrice")
-    quelle_operation_cal()
+
+print("Ceci est une calculatrice")
+quelle_operation_cal()

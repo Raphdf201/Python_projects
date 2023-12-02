@@ -15,19 +15,18 @@ def surprise_cv():
     exit()
 
 
-def launch_cv():
-    print("Bienvenue dans mon convertisseur d'unités")
-    departInput = input(
-        "Pour convertir une unité de longueur, écrire L, pour l'énergie, E et Q pour quitter : ")
-    if departInput == "L":
-        longueur_cv()
-    elif departInput == "E":
-        energie_cv()
-    elif departInput == "V":
-        vitesse_cv()
-    elif departInput == "EASTEREGG":
-        surprise_cv()
-    elif departInput == "Q":
-        exit()
-    else:
-        print("Veuillez entrer une lettre valide")
+print("Bienvenue dans mon convertisseur d'unités")
+departInput = input(
+    "Pour convertir une unité de longueur, écrire L, pour l'énergie, E et Q pour quitter : ")
+if departInput == "L":
+    longueur_cv()
+elif departInput == "E":
+    energie_cv()
+elif departInput == "V":
+    vitesse_cv()
+elif departInput == "EASTEREGG":
+    surprise_cv()
+elif departInput == "Q":
+    exit()
+else:
+    print("Veuillez entrer une lettre valide")
