@@ -1,7 +1,6 @@
-# Manoir hanté
 from random import randint
+
 print('Le manoir hanté.')
-# Variables - def var = varname "=" varvalue
 je_suis_courageux = True
 score = 0
 while je_suis_courageux:
@@ -23,7 +22,6 @@ while je_suis_courageux:
     else:
         print('Ouf, pas de fantôme')
         print('Passons à la prochaine salle.')
-        score = score + 1
+        score += 1
 print('AU SECOURS !!')
 print('Partie terminée ! Ton score :', score)
-    

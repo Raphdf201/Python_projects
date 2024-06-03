@@ -14,6 +14,7 @@ def surprise_cv():
     print("UWU")
     exit()
 
+
 print("Bienvenue dans mon convertisseur d'unités")
 departInput = input(
     "Pour convertir une unité de longueur, écrire L, pour l'énergie, E et Q pour quitter : ")

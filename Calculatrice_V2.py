@@ -27,8 +27,8 @@ def puissance(nb_1, nb_2, resultat):
     return resultat
 
 
-def racine_carree(nb_1, resultat):
-    resultat = math.sqrt(nb_1, resultat)
+def racine_carree(nb_1):
+    resultat = math.sqrt(nb_1)
     return resultat
 
 
@@ -60,7 +60,7 @@ elif quoi == "^":
     print("Le résultat est ", resultat)
 elif quoi == "rc":
     nb_1 = int(input("Nombre : "))
-    racine_carree(nb_1, resultat)
+    racine_carree(nb_1)
     print("Le résultat est ", resultat)
 else:
     print("Veuillez entrer un symbole valide.")

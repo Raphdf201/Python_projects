@@ -2,8 +2,8 @@ import math
 
 nb_3 = 0
 
+
 def troisiemeNombre_cal():
-    troisiemeNombre_var = None
     troisiemeNombre_var = input("Voulez-vous additionner un troisième nombre ? (o/n)")
     if troisiemeNombre_var == "o":
         return float(input("Nombre 3 : "))
@@ -113,6 +113,7 @@ def quelle_operation_cal():
     else:
         print("Vous n'avez pas entré l'une des réponses attendues. Veuillez entrer «addition», «soustraction», "
               "«multiplication», «division» ou «autre».")
+
 
 print("Ceci est une calculatrice")
 quelle_operation_cal()
