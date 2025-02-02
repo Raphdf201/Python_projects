@@ -1,70 +1,63 @@
 import math
 
-resultat = 0.0
+result = 0.0
 
 
-def addition(nb_1, nb_2):
+def add(nb_1, nb_2):
     return nb_1 + nb_2
 
 
-def soustraction(nb_1, nb_2, resultat):
-    resultat = nb_1 - nb_2
-    return resultat
+def sub(nb_1, nb_2):
+    return nb_1 - nb_2
 
 
-def multiplication(nb_1, nb_2, resultat):
-    resultat = nb_1 * nb_2
-    return resultat
+def mult(nb_1, nb_2):
+    return nb_1 * nb_2
 
 
-def division(nb_1, nb_2, resultat):
-    resultat = nb_1 / nb_2
-    return resultat
+def div(nb_1, nb_2):
+    return nb_1 / nb_2
 
 
-def puissance(nb_1, nb_2, resultat):
-    resultat = nb_1 ** nb_2
-    return resultat
+def exp(nb_1, nb_2):
+    return nb_1 ** nb_2
 
 
-def racine_carree(nb_1):
-    resultat = math.sqrt(nb_1)
-    return resultat
+def sqrt(nb_1):
+    return math.sqrt(nb_1)
 
 
 quoi = input("Quelle opération voulez-vous exécuter ? (+, -, *, /, ^, rc) : ")
 if quoi == "+":
     nb_1 = float(input("Nombre 1 à Additionner : "))
     nb_2 = float(input("Nombre 2 à Additionner : "))
-    addition(nb_1, nb_2)
-    print("Le résultat est ", resultat)
+    result = add(nb_1, nb_2)
+    print("Le résultat est ", result)
 elif quoi == "-":
     nb_1 = float(input("Nombre 1 à soustraire : "))
     nb_2 = float(input("Nombre 2 à soustraire : "))
-    soustraction(nb_1, nb_2, resultat)
-    print("Le résultat est ", resultat)
+    result = sub(nb_1, nb_2)
+    print("Le résultat est ", result)
 elif quoi == "*":
     nb_1 = float(input("Nombre 1 à multiplier : "))
     nb_2 = float(input("Nombre 2 à multiplier : "))
-    multiplication(nb_1, nb_2, resultat)
-    print("Le résultat est ", resultat)
+    result = mult(nb_1, nb_2)
+    print("Le résultat est ", result)
 elif quoi == "/":
     nb_1 = float(input("Nombre 1 à diviser : "))
     nb_2 = float(input("Nombre 2 à diviser : "))
-    division(nb_1, nb_2, resultat)
-    print("Le résultat est ", resultat)
+    result = div(nb_1, nb_2)
+    print("Le résultat est ", result)
 elif quoi == "^":
     nb_1 = float(input("Nombre : "))
     nb_2 = int(input("Exposant : "))
-    puissance(nb_1, nb_2, resultat)
-    print("Le résultat est ", resultat)
+    result = exp(nb_1, nb_2)
+    print("Le résultat est ", result)
 elif quoi == "rc":
     nb_1 = int(input("Nombre : "))
-    racine_carree(nb_1)
-    print("Le résultat est ", resultat)
+    result = sqrt(nb_1)
+    print("Le résultat est ", result)
 else:
     print("Veuillez entrer un symbole valide.")
     print("(+) = addition, (-) = soustraction, (*) = multiplication")
     print("(/) = division, (^) = exposant ou puissance, (rc) = racine carrée")
-
-# Donne 0 à chaque opération (donc non fonctionnelle)
